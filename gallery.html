@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="gallery-cont">
+     
+    </div>
+    <div class="back">
+        BACK
+    </div>
+    <script src="database.js"></script>
+    <script src="gallery.js"></script>
+    <script>
+        let camerael=document.querySelector(".back");
+        camerael.addEventListener("click",()=>
+        {
+            location.assign("./index.html")
+        })
+    </script>
+</body>
+</html>

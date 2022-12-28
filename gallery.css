@@ -1,0 +1,85 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.gallery-cont
+{
+    height:100vh;
+    width:100vw;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.media-cont
+{
+    width:15rem;
+    height:15rem;
+    background-color: aquamarine;
+    border:5px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    margin: 2rem;
+}
+
+.media
+{
+    height:11rem;
+}
+
+.media video{
+    height:100%;
+    width:100%;
+    object-fit: fill;
+}
+.media img{
+    height:100%;
+    width:100%;
+    object-fit: fill;
+}
+
+.action
+{
+    color: antiquewhite;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:2rem;
+}
+.action:hover
+{
+    cursor: pointer;
+}
+.delete
+{
+    background-color: rgb(250, 69, 69);
+}
+
+.download
+{
+    background-color: rgb(56, 133, 56);
+}
+
+.back
+{
+    height:5rem;
+    width:5rem;
+    background-color: black;
+    color: azure;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 2rem;
+    right:5rem;
+}
+
+.back:hover
+{
+    cursor: pointer;
+}

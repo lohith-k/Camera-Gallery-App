@@ -167,3 +167,16 @@ body{
     width:100vw;
 
 }
+
+.gallery
+{
+    position:absolute;
+    bottom:2rem;
+    right:7.5rem;
+    color:white
+}
+
+.gallery:hover
+{
+    cursor: pointer;
+}
